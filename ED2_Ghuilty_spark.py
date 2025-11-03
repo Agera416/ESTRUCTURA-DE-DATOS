@@ -1,8 +1,3 @@
-# MyLinkedList.py
-# -----------------------------------------
-# Implementación personalizada de una lista enlazada
-# Creada por: [Tu Nombre]
-# -----------------------------------------
 
 class Node:
     """Clase que representa un nodo en la lista enlazada"""
@@ -97,3 +92,4 @@ class MyLinkedList:
             nodes.append(str(current.data))
             current = current.next
         return " -> ".join(nodes) + " -> None"
+
